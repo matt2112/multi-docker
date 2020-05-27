@@ -70,6 +70,7 @@ class Fib extends Component {
         {this.renderSeenIndexes()}
 
         <h3>Calculated Values:</h3>
+        {this.renderValues()}
       </div>
     );
   }

@@ -18,6 +18,7 @@ const pgClient = new Pool({
   password: keys.pgPassword,
   port: keys.pgPort,
 });
+
 pgClient.on("error", () => {
   console.log("Lost PG connection");
 });
